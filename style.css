@@ -15,6 +15,7 @@ main {
   height: 100%;
   align-items: center;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@ form {
   margin: 0 auto;
   background-color: white;
   height: 60%;
-  width: 25%;
+  width: 40%;
   border-radius: 1%;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.1);
@@ -75,4 +76,73 @@ h5 {
   position: absolute;
   left: 45%;
   top: 71%;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    height: 60%;
+    width: 25%;
+    border-radius: 1%;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: #343a40;
+  }
+
+  h4 {
+    position: absolute;
+    top: 33%;
+    color: #6c757d;
+  }
+
+  input {
+    border: 1px solid #bdc4c9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+    padding-bottom: 5px;
+    position: relative;
+    top: 5%;
+  }
+
+  .forgot-pw {
+    position: absolute;
+    right: 41.4%;
+    top: 51%;
+    font-size: 12px;
+    color: #808488;
+  }
+
+  button {
+    background-color: rgb(81, 162, 229);
+    border: none;
+    width: 71%;
+    padding: 10px;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h5 {
+    color: #808488;
+    position: absolute;
+    left: 45%;
+    top: 71%;
+  }
 }
