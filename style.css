@@ -32,6 +32,7 @@ form {
 
 h1 {
   color: #343a40;
+  font-size: 160%;
 }
 
 h4 {
@@ -53,9 +54,9 @@ input {
 
 .forgot-pw {
   position: absolute;
-  right: 41.4%;
-  top: 51%;
-  font-size: 12px;
+  right: 36.4%;
+  top: 50%;
+  font-size: 80%;
   color: #808488;
 }
 
@@ -74,7 +75,7 @@ a {
 h5 {
   color: #808488;
   position: absolute;
-  left: 45%;
+  left: 38.5%;
   top: 71%;
 }
 
@@ -118,12 +119,11 @@ h5 {
     position: relative;
     top: 5%;
   }
-
   .forgot-pw {
     position: absolute;
     right: 41.4%;
-    top: 51%;
-    font-size: 12px;
+    top: 50%;
+    font-size: 80%;
     color: #808488;
   }
 
