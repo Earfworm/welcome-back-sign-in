@@ -75,8 +75,27 @@ a {
 h5 {
   color: #808488;
   position: absolute;
-  left: 38.5%;
+  right: 33%;
   top: 71%;
+}
+
+@media screen and (max-width: 368px) {
+  form {
+    width: auto;
+  }
+
+  h1 {
+    font-size: 125%;
+  }
+
+  .forgot-pw {
+    font-size: 62%;
+    top: 49.3%;
+  }
+
+  h5 {
+    left: 33%;
+  }
 }
 
 @media screen and (min-width: 768px) {
